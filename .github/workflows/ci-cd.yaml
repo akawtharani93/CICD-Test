@@ -3,7 +3,7 @@ name : Continuous Integration and Deplyment
 on:
   push:
     branches:
-      -main
+      -master
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
         dotnet-version: '7.0.x'
-        
+
       - name: Restore dependencies
         run: dotnet restore
     
