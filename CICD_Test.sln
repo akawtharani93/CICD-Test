@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICD_Test", "CICD_Test\CICD_Test.csproj", "{35EBD2A5-FCDC-402C-B388-8ABD3E2CCA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICD_Test", "CICD_Test\CICD_Test.csproj", "{35EBD2A5-FCDC-402C-B388-8ABD3E2CCA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICD.UnitTest", "CICD.UnitTest\CICD.UnitTest.csproj", "{D95E254B-4695-48F8-8EBA-4A9B1E1F74C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{35EBD2A5-FCDC-402C-B388-8ABD3E2CCA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35EBD2A5-FCDC-402C-B388-8ABD3E2CCA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35EBD2A5-FCDC-402C-B388-8ABD3E2CCA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95E254B-4695-48F8-8EBA-4A9B1E1F74C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95E254B-4695-48F8-8EBA-4A9B1E1F74C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95E254B-4695-48F8-8EBA-4A9B1E1F74C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95E254B-4695-48F8-8EBA-4A9B1E1F74C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
