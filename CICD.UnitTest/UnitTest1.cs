@@ -5,7 +5,7 @@ namespace CICD.UnitTest
         [Fact]
         public void Test1()
         {
-            Assert.True(1 == 1);
+            Assert.True(2 == 2);
         }
     }
 }
